@@ -2,9 +2,9 @@
   "author": "Nathan Oehlman <nathan.oehlman@gmail.com>",
   "name": "mangomodel-security",
   "description": "Security methods for mangomodel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
-    "url": ""
+    "url": "https://github.com/nathanoehlman/mangomodel-security"
   },
   "main": "index.js",
   "scripts": {
