@@ -49,6 +49,8 @@ var record = {name: 'John Doe', description: 'A regular guy', secret_stuff: 'Lik
 ExampleModel.restrict(record, 'user'); // Return name and description
 
 // Get a copy of the record with only fields permissible by a user updated
-ExampleModel.mix(record, { name: 'John Dean', description: 'Better than regular'}); // Only updates name
+ExampleModel.mix(record, { name: 'John Dean', description: 'Better than regular'}, 'user'); // Only updates name
+
+ExampleModel.mix(record, { name: 'John Dean', description: 'Better than regular'}, 'manager'); // Update all
 
 ````
