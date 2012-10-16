@@ -1,7 +1,7 @@
 MangoModel-Security
 =======
 
-MangoModel-Security provides some simple security utility methods for the [MangoModel][https://github.com/coen-hyde/mangomodel] MongoDB wrapper. 
+MangoModel-Security provides some simple security utility methods for the [MangoModel](https://github.com/coen-hyde/mangomodel) MongoDB wrapper. 
 
 ### Installing
 
