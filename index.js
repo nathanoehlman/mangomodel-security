@@ -69,6 +69,7 @@ module.exports = function(permissions) {
     return {                
         permissionsFor: permissionsFor,
         restrictFor: restrict,
+        restrict: restrict,
         mix: mix
     };
    
